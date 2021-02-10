@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddInstructor">
+
+    <children>
+        <Button id="btnBack" layoutX="20.0" layoutY="22.0" mnemonicParsing="false" text="Back" />
+        <Label layoutX="60.0" layoutY="88.0" text="Name: " />
+        <TextField id="insName" layoutX="125.0" layoutY="83.0" />
+        <Label layoutX="60.0" layoutY="129.0" text="Phone:" />
+        <TextField id="insPhone" layoutX="125.0" layoutY="124.0" />
+        <Label layoutX="60.0" layoutY="179.0" text="Address:" />
+        <TextField id="insAddress" layoutX="125.0" layoutY="174.0" />
+        <Button id="btnAddInstructor" layoutX="123.0" layoutY="209.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="154.0" text="Add Instructor" />
+        <TableView id="tableInstructors" layoutX="23.0" layoutY="256.0" prefHeight="168.0" prefWidth="505.0" />
+        <Button id="btnClearIns" layoutX="300.0" layoutY="209.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Clear" />
+        <Button id="btnDeleteIns" layoutX="382.0" layoutY="209.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Delete" visible="false" />
+    </children>
+
+</AnchorPane>

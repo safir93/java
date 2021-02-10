@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <AnchorPane prefHeight="334.0" prefWidth="487.0">
+            <children>
+                <Label layoutX="163.0" layoutY="24.0" prefHeight="43.0" prefWidth="244.0" text="Module Management" textFill="#eb0505">
+                    <font>
+                        <Font size="24.0" />
+                    </font></Label>
+                <Button id="btn_Student" layoutX="34.0" layoutY="111.0" mnemonicParsing="false" text="Students" />
+                <Button id="btn_Admin" layoutX="194.0" layoutY="111.0" mnemonicParsing="false" onAction="#handleBtnAdmin" text="Administrator" />
+                <Label id="lable_error" alignment="CENTER" layoutX="13.0" layoutY="67.0" prefHeight="26.0" prefWidth="281.0" text="!" textAlignment="CENTER" textFill="#b25c5c" visible="false" />
+                <Button id="btn_instructor" layoutX="378.0" layoutY="111.0" mnemonicParsing="false" text="Instructor" />
+            </children></AnchorPane>
+    </children>
+</GridPane>

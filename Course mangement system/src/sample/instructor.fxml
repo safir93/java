@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Instructor">
+
+    <Button id="btnBack" layoutX="23.0" layoutY="21.0" mnemonicParsing="false" text="Back" />
+    <Label layoutX="520.0" layoutY="14.0" text="Instructor Panel">
+        <font>
+            <Font name="System Bold" size="25.0" />
+        </font></Label>
+    <ComboBox id="comboBoxIns" layoutX="557.0" layoutY="122.0" prefWidth="150.0" />
+    <Label layoutX="488.0" layoutY="127.0" text="Instructor" />
+    <TableView id="insModuleTable" layoutX="497.0" layoutY="186.0" prefHeight="200.0" prefWidth="200.0" />
+    <TableView id="insStudentTable" layoutX="23.0" layoutY="186.0" prefHeight="200.0" prefWidth="440.0" />
+    <Pane id="insPane" layoutX="23.0" layoutY="110.0" prefHeight="68.0" prefWidth="440.0" visible="false">
+        <children>
+            <Label layoutX="16.0" layoutY="23.0" text="Marks: " />
+            <TextField id="textFieldMarks" layoutX="66.0" layoutY="21.0" prefHeight="26.0" prefWidth="59.0" />
+            <Button id="btnAddIns" layoutX="146.0" layoutY="22.0" mnemonicParsing="false" text="Add" />
+        </children>
+    </Pane>
+
+</AnchorPane>

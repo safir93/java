@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="453.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+
+    <children>
+        <Button id="btnBack" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Back" />
+        <Label layoutX="44.0" layoutY="80.0" text="Module Name: " />
+        <TextField id="textModuleName" layoutX="146.0" layoutY="75.0" prefHeight="26.0" prefWidth="190.0" />
+        <Button id="btnAddModule" layoutX="348.0" layoutY="75.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="116.0" text="Add Module" />
+        <Pane layoutX="18.0" layoutY="240.0" prefHeight="200.0" prefWidth="446.0">
+            <children>
+                <TableView id="moduleTable" fx:id="coursesTable" layoutX="14.0" layoutY="18.0" prefHeight="165.0" prefWidth="422.0" />
+            </children>
+        </Pane>
+        <Button id="btnClearModule" layoutX="487.0" layoutY="75.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Clear" />
+        <Label layoutX="44.0" layoutY="117.0" text="Module Code: " />
+        <TextField id="textModuleCode" layoutX="146.0" layoutY="112.0" prefHeight="26.0" prefWidth="190.0" />
+        <Label layoutX="44.0" layoutY="165.0" text="Coruse:" />
+        <Label layoutX="44.0" layoutY="211.0" text="Instructor:" />
+        <ComboBox id="comboBoxCourse" layoutX="146.0" layoutY="160.0" prefHeight="26.0" prefWidth="190.0" />
+        <ComboBox id="comboBoxInstructor" layoutX="146.0" layoutY="206.0" prefHeight="26.0" prefWidth="190.0" />
+        <Button id="btnDeleteModule" layoutX="487.0" layoutY="120.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="66.0" text="Delete" visible="false" />
+    </children>
+
+</AnchorPane>
